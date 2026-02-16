@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>🐾 Добро пожаловать в мир животных! 🐾</h1>
+
+    <div style="text-align: center; margin: 40px 0;">
+        <p style="font-size: 1.3rem; color: #666;">Открой для себя удивительный мир домашних питомцев</p>
+    </div>
+
+    <div class="grid-2">
+        <div class="card">
+            <h2>😺 Кошки</h2>
+            <p style="font-size: 1.2rem; margin: 20px 0;">Загадочные, грациозные и нежные создания</p>
+            <a href="/cats">Познакомиться с кошками →</a>
+        </div>
+
+        <div class="card" style="background: linear-gradient(135deg, #23a6d5, #23d5ab);">
+            <h2>🐶 Собаки</h2>
+            <p style="font-size: 1.2rem; margin: 20px 0;">Верные, преданные и любящие друзья</p>
+            <a href="/dogs">Узнать о собаках →</a>
+        </div>
+    </div>
+
+    <div class="info-section">
+        <h3 style="text-align: center; font-size: 2rem; color: #333; margin-bottom: 30px;">🌟 Интересные факты о животных 🌟</h3>
+        <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px;">
+            <div class="tip-item">
+                <p style="font-size: 2rem; text-align: center;">😺</p>
+                <p>Кошки проводят 70% жизни во сне</p>
+            </div>
+            <div class="tip-item">
+                <p style="font-size: 2rem; text-align: center;">🐕</p>
+                <p>Собаки понимают до 250 слов</p>
+            </div>
+            <div class="tip-item">
+                <p style="font-size: 2rem; text-align: center;">❤️</p>
+                <p>Животные снижают стресс у человека</p>
+            </div>
+        </div>
+    </div>
+{% endblock %}
